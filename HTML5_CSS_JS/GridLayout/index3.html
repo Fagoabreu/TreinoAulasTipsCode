@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equi="X-UA-Compatible" content="ie=edge">
+    <title>CSS GRID 3</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            display: grid;
+            min-height: 100vh;
+            grid-template-columns: 300px 1fr;
+            grid-template-rows: 100px 1fr 100px;
+            grid-template-areas:
+                'cabecalho cabecalho'
+                'navegacao conteudo'
+                'rodape rodape'
+
+            ;
+        }
+
+        .box {
+            border: solid 5px rebeccapurple;
+            font-size: 30px;
+        }
+
+        header {
+            grid-area: cabecalho;
+        }
+
+        nav {
+            grid-area: navegacao
+        }
+
+        main {
+            grid-area: conteudo
+        }
+
+        footer {
+            grid-area: rodape;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="box">CONTEÚDO</main>
+    <header class="box">CABEÇALHO</header>
+    <footer class="box">RODAPÉ</footer>
+    <nav class="box">NAVEGAÇÃO</nav>
+
+</html>

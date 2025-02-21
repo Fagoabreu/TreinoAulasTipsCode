@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/styles.css">
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jersey+20&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap"
+        rel="stylesheet">
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <title>Indies Brasil</title>
+</head>
+
+<body>
+    <header id="title">
+        <div class="container-fluid">
+            <!--navbar-->
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#">Indies Brasil</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> Home </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer"> Contato </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pricing"> Plano </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cta"> Download </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="row">
+                <!--Titulo-->
+                <div class="col-lg-6">
+                    <h1>Bem vindo á comunidade Indies Brasil</h1>
+                    <button type="button" class="download-button btn btn-dark btn-lg">
+                        <i class="fa-brands fa-apple"> Download</i>
+                    </button>
+                    <button type="button" class="download-button btn btn-outline-light btn-lg">
+                        <i class="fa-brands fa-google-play"> Download</i>
+                    </button>
+                </div>
+                <div class="col-lg-6">
+                    <figure>
+                        <img class="title-image" src="./img/IndiesBrasilLogo.png" alt="Logo Indies Brasil">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="features">
+        <div class="row">
+            <div class="feature-box col-lg-4">
+                <i class="icon fa-solid fa-heart fa-4x"></i>
+                <h3>Algo a dizer</h3>
+                <p>Eu tenho algo a dizer a voce</p>
+            </div>
+
+            <div class="feature-box col-lg-4">
+                <i class="icon fa-solid fa-bullseye fa-4x"></i>
+                <h3>Nada a declarar</h3>
+                <p>Não tenho nada a declarar</p>
+            </div>
+
+            <div class="feature-box col-lg-4">
+                <i class="icon fa-solid fa-circle-check fa-4x"></i>
+                <h3>Tudo ou nada</h3>
+                <p>Declare tudo e faça anada</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testmonials">
+        <!-- Carousel -->
+        <div id="testmonial-carousel" class="carousel slide" data-ride="carousel" data-pause="hover">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h2>O sistema perfeito para organizar-se com outros desenvolvedores indie</h2>
+                    <img class="testmonials-image" src="./img/foto-perfil-modified-256.png" alt="Fabio Abreu">
+                    <em>São Paulo, São Paulo</em>
+                </div>
+                <div class="carousel-item">
+                    <h2>O sistema perfeito para organizar-se com outros desenvolvedores indie</h2>
+                    <img class="testmonials-image" src="./img/Palavras.png" alt="Logo Indies">
+                    <em>São Paulo, São Paulo</em>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-target="#testmonial-carousel" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-target="#testmonial-carousel" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </button>
+        </div>
+        <!-- Fim carousel -->
+
+    </section>
+
+    <section id="press">
+        <img class="press-image" src="img/Palavras.png" alt="logo1">
+        <img class="press-image" src="img/indiedev.webp" alt="logo2">
+        <img class="press-image" src="img/IndieGameDev.webp" alt="logo3">
+        <img class="press-image" src="img/controle.jpg" alt="logo4">
+
+    </section>
+
+
+    <section id="pricing">
+
+        <h2>Resolvendo problemas dos desenvolvedores</h2>
+        <p>Projetos e Ferramentas para facilitar a vida do desenvolvedor de jogos</p>
+
+        <div class="row">
+            <div class="pricing-column col-lg-4 col-md-6 ">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Gestão de membros</h3>
+                    </div>
+                    <div class="card-body ">
+                        <h2>Gratis</h2>
+                        <p>composição de membros</p>
+                        <p>definiçãod e atividades</p>
+                        <button type="button" class="btn btn-lg btn-block btn-outline-dark">inscreva-se</button>
+                    </div>
+                </div>
+            </div>
+            <div class="pricing-column col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Calendário</h3>
+                    </div>
+                    <div class="card-body">
+                        <h2>R$50,00</h2>
+                        <p>calendário de enventos unificados</p>
+                        <p>integre sua agenda com a dos demais membros</p>
+                        <button type="button" class="btn btn-lg btn-block btn-dark">inscreva-se</button>
+                    </div>
+                </div>
+            </div>
+            <div class="pricing-column col-lg-4 col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Fluxo de trabalho</h3>
+                    </div>
+                    <div class="card-body">
+                        <h2>R$99,00</h2>
+                        <p>Desenhe o fluxo de trabalho</p>
+                        <p>acompanhe os itens em desenvolvimento</p>
+                        <button type="button" class="btn btn-lg btn-block btn-dark">inscreva-se</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta">
+        <h3 class="cta-heading">Faça agora mesmo o download</h3>
+        <button type="button" class="download-button btn btn-dark btn-lg">
+            <i class="fa-brands fa-apple"> Download </i>
+        </button>
+        <button type="button" class="download-button btn btn-light btn-lg">
+            <i class="fa-brands fa-google-play"> Download </i>
+        </button>
+    </section>
+
+    <section id="footer">
+        <p>
+            <i class="social-icon fa-brands fa-facebook-f"></i>
+            <i class="social-icon fa-brands fa-twitter"></i>
+            <i class="social-icon fa-brands fa-instagram"></i>
+            <i class="social-icon fa-solid fa-envelope"></i>
+        </p>
+        <p>@Copyright 2025 Indies Brasil</p>
+    </section>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

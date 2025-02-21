@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <h1>Entre em Contato</h1>
+    <ul>
+        <li>
+            Email <a href="mailto:fagoabreu@gmail.com"> fagoabreu@gmail.com</a>
+        </li>
+        <li>
+            Contato Direto <a href="https://api.whatsapp.com/send?phone=5511957923068" target="_blank"> Whatsapp</a>
+        </li>
+        <li>
+            Telefone: (11) 95792-3068</a>
+        </li>
+    </ul>
+
+    <form action="mailTo:fagoabreu@gmail.com" method="post" enctype="text/plain">
+        <label for="nomeTxt">Nome Completo</label><br />
+        <input type="text" id="nomeTxt" name="Nome" />
+        <br />
+        <label for="emailTxt">E-mail</label>
+        <br />
+        <input type="email" name="email" id="emailTxt">
+        <br />
+        <label for="mensagemTxt">Sua Mensagem</label>
+        <br />
+        <textarea name="mensagem" id="mensagemTxt" cols="30" rows="10"></textarea>
+        <br />
+        <input type="submit" value="Enviar">
+
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+/*[ == Tags == ]*/
+.jersey-20-regular {
+    font-family: "Jersey 20", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Roboto", Verdana, sans-serif;
+    color: #074799;
+    font-weight: normal;
+    line-height: normal;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Jersey 20", sans-serif;
+    color: #001A6E;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin: 0 auto 0 auto;
+    font-size: 5.625rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    clear: both;
+    border-style: dotted;
+    border-bottom: none;
+    border-color: #001A6E;
+    border-width: 6px;
+    width: 10%;
+    margin: 100px auto;
+}
+
+/*[ == Classes == ]*/
+.top-container {
+    background-color: #009990;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    background-color: #E1FFBB;
+    margin: 100px auto;
+}
+
+.bottom-container {
+    background-color: #009990;
+}
+
+.img-header {
+    width: 15%;
+}
+
+.logo-animado {
+    position: absolute;
+    width: 3%;
+}
+
+.logo-top {
+    top: 50px;
+    right: 20%;
+}
+
+.logo-bottom {
+    right: 70%;
+    bottom: 1%;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+
+}
+
+.code-img {
+    width: 25%;
+    float: left;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.img-right {
+    float: right;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
