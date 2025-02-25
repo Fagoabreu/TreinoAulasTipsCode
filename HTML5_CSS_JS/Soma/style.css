@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+    padding: 7% 15%;
+    margin: auto;
+}
+
+form {
+    max-width: 330px;
+    margin: auto;
+}
+
+input {
+    margin: 3%;
+}
+
+button {
+    margin: 3%;
+}
