@@ -11,15 +11,18 @@ function setImage(order, image) {
     image1.setAttribute('src', image);
 }
 
+function getResultado(number1, number2) {
+    let resultado = "";
+    if (number1 === number2) {
+        resultado = "😮 Empate 😮"
+    } else {
+        resultado = '🏆Player ' + (number1 > number2 ? 1 : 2) + ' venceu🏆';
+    }
+    return resultado;
+}
+
 let number1 = getRandomNumber();
 let number2 = getRandomNumber();
 setImage(0, getDiceImage(number1));
 setImage(1, getDiceImage(number2));
-
-let resultado = "";
-if (number1 === number2) {
-    resultado = "😮 Empate 😮"
-} else {
-    resultado = '🏆Player ' + (number1 > number2 ? 1 : 2) + ' venceu🏆';
-}
-document.querySelector('h1').innerHTML = resultado;
+document.querySelector('h1').innerHTML = getResultado(number1, number2);
