@@ -133,7 +133,7 @@ function arrowFunc() {
         return 2 * num;
     }*/
 
-    double = num => 2 * num;
+    const double = num => 2 * num;
     console.log(double(2));
 
     /*
