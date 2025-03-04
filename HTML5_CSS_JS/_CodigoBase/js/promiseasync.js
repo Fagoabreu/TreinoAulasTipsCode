@@ -21,7 +21,7 @@ const readAwaitTexts = async () => {
     }
 }
 
-console.log(1);
 readAwaitTexts().then(contents => console.log("Then finalizado \n" + contents));
+console.log(1);
 console.log(2);
 console.log(3);
