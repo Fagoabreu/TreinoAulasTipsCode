@@ -1,10 +1,10 @@
 import React from "react";
 
-const ano = new Date().getFullYear();
+const year = new Date().getFullYear();
 function Footer() {
     return (
         <footer>
-            <p>Copyright Fabio Abreu @{ano}</p>
+            <p>Copyright ©{year}</p>
         </footer>
     )
 }
