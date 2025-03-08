@@ -1,0 +1,11 @@
+.title {
+  color: red;
+}
+ul {
+  color: blue;
+}
+
+.food-img {
+  max-height: 100px;
+  max-width: 200px;
+}
