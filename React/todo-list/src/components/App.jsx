@@ -18,6 +18,12 @@ function App() {
     })
   }
 
+  function updateItem(id, value) {
+    setItems(prevItems => {
+      return prevItems.map((item, index) => { return index === id ? value : item })
+    })
+  }
+
   return (
     <div className="container">
       <div className="heading">
@@ -33,7 +39,9 @@ function App() {
                   key={index}
                   id={index}
                   text={currentItem}
-                  onChecked={deleteItem} />)
+                  onChecked={deleteItem}
+                  onUpdate={updateItem}
+                />)
             })
           }
         </ul>
