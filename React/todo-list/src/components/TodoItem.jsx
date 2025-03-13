@@ -12,7 +12,7 @@ function TodoItem(props) {
         if (isEditMode === true) {
             return <input onChange={updateText} value={newText} />
         }
-        return props.text
+        return props.text;
     }
 
     function getButton() {
@@ -24,7 +24,6 @@ function TodoItem(props) {
 
     function updateText(event) {
         setNewText(event.target.value);
-
     }
 
     function save() {
