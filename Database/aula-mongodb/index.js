@@ -11,10 +11,23 @@ async function run() {
         const database = client.db('tipscode');
         const produtos = database.collection('products')
 
-        const query = { _id: 1 };
+        //insert
+        const novoProduto = {
+            _id: 5,
+            name: 'Monitor',
+            price: '800',
+            stock: '30'
+        }
+        const insertResult = await produtos.insertOne(novoProduto)
+        console.log(insertResult);
+        //select
+        const query = { _id: 5 };
         const produto = await produtos.findOne(query);
         console.log(produto);
 
+        //delete
+        const deleteResult = await produtos.deleteOne({ _id: 5 })
+        console.log(deleteResult);
     } finally {
         await client.close();
     }
